@@ -1,0 +1,11 @@
+name: My Workflow123
+
+on: [push]
+
+jobs:
+  echo:
+    runs-on: self-hosted
+
+    steps:
+    - name: My stuff1
+      run: echo "Hello my friend"
